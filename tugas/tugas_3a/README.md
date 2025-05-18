@@ -149,13 +149,13 @@ make qemu-nox
 Cari:
 
 ```c
-c->state = RUNNABLE;
+np->state = RUNNABLE;
 ```
 
 Tambahkan setelahnya:
 
 ```c
-cprintf("[kernel] fork: Parent PID %d → Child PID %d\n", p->pid, c->pid);
+cprintf("[kernel] fork: Parent PID %d → Child PID %d\n", np->pid);
 ```
 
 ---
