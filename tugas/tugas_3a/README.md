@@ -294,7 +294,7 @@ cprintf("[kernel] scheduler: Running PID %d (%s)\n", p->pid, p->name);
 
 ---
 
-## ✅ Langkah 2 – Tambahkan File Program Uji
+## ✅ Langkah 3 – Tambahkan File Program Uji
 
 ### A. Buat File Baru: `proclife.c`
 
